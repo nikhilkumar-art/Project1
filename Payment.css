@@ -1,0 +1,75 @@
+.payment-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.summary-row:last-child {
+  margin-bottom: 0;
+}
+
+.border-t {
+  border-top: 1px solid var(--border);
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.transform {
+  transform: translateY(-50%);
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.cursor-wait {
+  cursor: wait;
+}

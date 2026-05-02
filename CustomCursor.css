@@ -1,0 +1,26 @@
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  z-index: 9999;
+  /* Instead of centering like a circle, a pointer's origin is usually top-left.
+     But since we animate it to clientX/Y, we might need to adjust the transform 
+     so the tip of the arrow aligns with the actual click point. */
+  transform: translate(0%, 0%);
+}
+
+.custom-cursor svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.8));
+}
+
+
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: none;
+  }
+}

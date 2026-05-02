@@ -1,0 +1,57 @@
+.auth-page {
+  min-height: calc(100vh - 4.5rem - 200px);
+  padding: 4rem 1.5rem;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 3rem 2.5rem;
+}
+
+.error-message {
+  background-color: rgba(255, 0, 60, 0.1);
+  color: var(--danger);
+  border: 1px solid rgba(255, 0, 60, 0.2);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Tab Button Styling */
+.auth-tabs {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: var(--radius-lg);
+  padding: 0.35rem;
+  border: 1px solid rgba(0, 240, 255, 0.15);
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 0;
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tab-btn:hover {
+  color: white;
+  background: rgba(0, 240, 255, 0.05);
+}
+
+.tab-btn.active {
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--accent-primary);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2), inset 0 0 10px rgba(0, 240, 255, 0.1);
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
